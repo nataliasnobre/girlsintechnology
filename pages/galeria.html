@@ -1,36 +1,49 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset = "UTF-8">
-		<title>Meninas na Tecnologia </title>
-		<link rel="stylesheet" href="../css/style.css">
-	</head>
+<head>
+	<meta charset = "UTF-8">
+	<title>Meninas na Tecnologia </title>
+	<link rel="stylesheet" href="../css/style.css">
+</head>
 
-	<body>
-		<header>
-			<b>Galeria</b>
-		</header>
-		
-		<nav>
-		    <a href="../index.html">Página Inicial</a>
-			<a href="galeria.html">Galeria</a> <br>
-			<a href="quemsomos.html">Quem somos </a><br>
-			<a href="parceria.html">Parceria</a><br>
-                        <a href="programasdabarbie.html">Programas da Barbie</a>
-		</nav>
-		
-		<section>
-			<img src="turmadegarotas.jpg">
-			<br>
-			<img src="garotasprogramando.jpg">
-			<br>
-			<img src="apresentacaodoprojeto.jpg">
-			
-		</section>
-		
-		<footer>
-			<b> Arte elaborada </b>
-		</footer>
-	</body>
+<body>
+	<header>
+		<b>Galeria</b>
+	</header>
+
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				</button>
+				<a class="navbar-brand" href="index.html">Meninas na tecnologia</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li><a href="pages/programasdabarbie.html">Programas da Barbie</a></li>
+					<li><a href="pages/quemsomos.html">Quem somos</a></li>
+					<li class="active"><a href="#">Galeria</a></li>
+					<li><a href="pages/parcerias.html">Parcerias</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<section>
+		<img src="turmadegarotas.jpg">
+		<br>
+		<img src="garotasprogramando.jpg">
+		<br>
+		<img src="apresentacaodoprojeto.jpg">
+
+	</section>
+
+	<footer>
+		<b> Arte elaborada </b>
+	</footer>
+</body>
 
 </html>
