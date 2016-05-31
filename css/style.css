@@ -1,3 +1,35 @@
+body {
+  min-height: 2000px;
+  padding-top: 70px;
+}
+
+nav.navbar-local {
+	background-color:rgb(241, 169, 160);
+}
+
+a {
+	color: rgb(192, 57, 43) !important;
+}
+
+li a:hover {
+	background-color: rgb(192, 57, 43) !important;
+	color: rgb(255, 255, 255) !important;
+	border-radius: 10px;
+}
+
+li.active a {
+	background-color: rgb(192, 57, 43) !important;
+	color: rgb(255, 255, 255) !important;
+	border-radius: 10px;
+}
+
+.navbar-local .navbar-toggle {
+	border-color: rgb(192, 57, 43);
+}
+
+.navbar-toggle .icon-bar {
+	background-color: rgb(192, 57, 43) !important;
+}
 
 h1{
 	color:DeepPink;
@@ -5,6 +37,7 @@ h1{
 	font-size:2.5em;
 	text-align:center;
 }
+
 h2{
 	color:black;
 	font-family:arial;
@@ -19,20 +52,11 @@ header{
 	padding:5px;
 }
 
-nav{
-	line-height:30px;
-	background-color:#eeeeee;
-	height:600px;
-	width:100px;
-	float:left;
-	padding:5px;
-	}
-
 section{
 	width:600px;
 	float:left;
 	padding:10px;
-	}
+}
 
 footer{
 	background-color:black;
@@ -40,4 +64,4 @@ footer{
 	clear:both;
 	text-align:center;
 	padding:5px;
-	}
+}
