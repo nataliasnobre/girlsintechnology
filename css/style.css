@@ -1,6 +1,5 @@
 body {
-	min-height: 2000px;
-	padding-top: 70px;
+	padding-top: 50px;
 }
 
 nav.navbar-local {
@@ -16,42 +15,47 @@ nav.navbar-local {
 }
 
 a {
-	color: rgb(192, 57, 43) !important;
+	color: rgb(211,50,87) !important;
 }
 
 li a:hover {
-	background-color: rgb(192, 57, 43) !important;
-	color: rgb(255, 255, 255) !important;
+	background-color: rgb(211,50,87) !important;
+	color: rgb(230, 230, 230) !important;
 	border-radius: 10px;
 }
 
 li.active a {
-	background-color: rgb(192, 57, 43) !important;
-	color: rgb(255, 255, 255) !important;
+	background-color: rgb(211,50,87) !important;
+	color: rgb(230, 230, 230) !important;
 	border-radius: 10px;
 }
 
 .navbar-local .navbar-toggle {
-	border-color: rgb(192, 57, 43);
+	border-color: rgb(211,50,87);
 }
 
 .navbar-toggle .icon-bar {
-	background-color: rgb(192, 57, 43) !important;
+	background-color: rgb(211,50,87);
 }
 
-h1{
+h1 {
 	color:DeepPink;
 	font-family:arial;
 	font-size:2.5em;
 	text-align:center;
 }
 
-h2{
+h2 {
 	color:black;
 	font-family:arial;
 	font-size:1.5em;
 }
 
+.jumbotron-local {
+	text-align: center;
+	background: url('../Images/jumbotron-background.jpg');
+	background-position: center;
+}
 
 header{
 	background-color:black;
