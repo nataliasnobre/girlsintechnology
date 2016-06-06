@@ -4,6 +4,7 @@ html {
 }
 
 body {
+	/*navbar*/
 	padding-top: 50px;
 	background-color: rgb(250, 230, 230);
 	/*footer*/
@@ -46,6 +47,19 @@ li.active a {
 	background-color: rgb(211,50,87);
 }
 
+.page-header {
+	border-bottom: none;
+}
+
+.h-header {
+	background-color: #C93756;
+	color: rgb(230, 230, 230);
+	padding: 15px;
+	border-radius: 30px;
+	padding-left: 30px;
+	text-align: left;
+}
+
 h1 {
 	color:DeepPink;
 	font-family:arial;
@@ -60,11 +74,18 @@ h2 {
 }
 
 .jumbotron-local {
+	margin: 0;
 	text-align: center;
 	background: url('../Images/jumbotron-background.jpg');
 	background-position: center;
 	background-size: 120%;
 	color: rgb(125, 20, 36);
+}
+
+.carousel-img {
+	float: right;
+	width: 1140px;
+	height: 500px !important;
 }
 
 header{
