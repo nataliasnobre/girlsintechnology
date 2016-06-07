@@ -99,6 +99,13 @@ img.board-apresentacao {
 	height: 200px;
 }
 
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid rgb(125, 20, 36);
+}
+
 header{
 	background-color:black;
 	color:white;
